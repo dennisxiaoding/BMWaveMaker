@@ -155,7 +155,7 @@
 				951FF2B31B7261F300945BD8 /* BMWaveMaker.m */,
 			);
 			name = BMWaveMaker;
-			path = ../BMWaveMaker;
+			path = ../../BMWaveMaker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
