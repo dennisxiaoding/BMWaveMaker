@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		951FF27E1B72615D00945BD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 951FF27D1B72615D00945BD8 /* main.m */; };
+		951FF2811B72615D00945BD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 951FF2801B72615D00945BD8 /* AppDelegate.m */; };
+		951FF2841B72615D00945BD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 951FF2831B72615D00945BD8 /* ViewController.m */; };
+		951FF2891B72615D00945BD8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 951FF2881B72615D00945BD8 /* Images.xcassets */; };
+		951FF28C1B72615D00945BD8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951FF28A1B72615D00945BD8 /* LaunchScreen.xib */; };
+		951FF2981B72615D00945BD8 /* BMWaveMakerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 951FF2971B72615D00945BD8 /* BMWaveMakerDemoTests.m */; };
+		951FF2A21B72618100945BD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 951FF2A11B72618100945BD8 /* Main.storyboard */; };
+		951FF2A51B72619D00945BD8 /* BMHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 951FF2A41B72619D00945BD8 /* BMHomeTableViewController.m */; };
+		951FF2A81B7261A700945BD8 /* AutoSpanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 951FF2A71B7261A700945BD8 /* AutoSpanViewController.m */; };
+		951FF2AB1B7261B000945BD8 /* FingeDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 951FF2AA1B7261B000945BD8 /* FingeDemoViewController.m */; };
+		951FF2AE1B7261B900945BD8 /* ManualSpanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 951FF2AD1B7261B900945BD8 /* ManualSpanViewController.m */; };
+		951FF2B41B7261F300945BD8 /* BMWaveLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 951FF2B11B7261F300945BD8 /* BMWaveLayer.m */; };
+		951FF2B51B7261F300945BD8 /* BMWaveMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 951FF2B31B7261F300945BD8 /* BMWaveMaker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		951FF2921B72615D00945BD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 951FF2701B72615D00945BD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 951FF2771B72615D00945BD8;
+			remoteInfo = BMWaveMakerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		951FF2781B72615D00945BD8 /* BMWaveMakerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMWaveMakerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		951FF27C1B72615D00945BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		951FF27D1B72615D00945BD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		951FF27F1B72615D00945BD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		951FF2801B72615D00945BD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		951FF2821B72615D00945BD8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		951FF2831B72615D00945BD8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		951FF2881B72615D00945BD8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		951FF28B1B72615D00945BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		951FF2911B72615D00945BD8 /* BMWaveMakerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMWaveMakerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		951FF2961B72615D00945BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		951FF2971B72615D00945BD8 /* BMWaveMakerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMWaveMakerDemoTests.m; sourceTree = "<group>"; };
+		951FF2A11B72618100945BD8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		951FF2A31B72619D00945BD8 /* BMHomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMHomeTableViewController.h; sourceTree = "<group>"; };
+		951FF2A41B72619D00945BD8 /* BMHomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMHomeTableViewController.m; sourceTree = "<group>"; };
+		951FF2A61B7261A700945BD8 /* AutoSpanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoSpanViewController.h; sourceTree = "<group>"; };
+		951FF2A71B7261A700945BD8 /* AutoSpanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoSpanViewController.m; sourceTree = "<group>"; };
+		951FF2A91B7261B000945BD8 /* FingeDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingeDemoViewController.h; sourceTree = "<group>"; };
+		951FF2AA1B7261B000945BD8 /* FingeDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FingeDemoViewController.m; sourceTree = "<group>"; };
+		951FF2AC1B7261B900945BD8 /* ManualSpanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManualSpanViewController.h; sourceTree = "<group>"; };
+		951FF2AD1B7261B900945BD8 /* ManualSpanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManualSpanViewController.m; sourceTree = "<group>"; };
+		951FF2B01B7261F300945BD8 /* BMWaveLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMWaveLayer.h; sourceTree = "<group>"; };
+		951FF2B11B7261F300945BD8 /* BMWaveLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMWaveLayer.m; sourceTree = "<group>"; };
+		951FF2B21B7261F300945BD8 /* BMWaveMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMWaveMaker.h; sourceTree = "<group>"; };
+		951FF2B31B7261F300945BD8 /* BMWaveMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMWaveMaker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		951FF2751B72615D00945BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951FF28E1B72615D00945BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		951FF26F1B72615D00945BD8 = {
+			isa = PBXGroup;
+			children = (
+				951FF27A1B72615D00945BD8 /* BMWaveMakerDemo */,
+				951FF2941B72615D00945BD8 /* BMWaveMakerDemoTests */,
+				951FF2791B72615D00945BD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		951FF2791B72615D00945BD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				951FF2781B72615D00945BD8 /* BMWaveMakerDemo.app */,
+				951FF2911B72615D00945BD8 /* BMWaveMakerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		951FF27A1B72615D00945BD8 /* BMWaveMakerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				951FF2AF1B7261C000945BD8 /* BMWaveMaker */,
+				951FF27F1B72615D00945BD8 /* AppDelegate.h */,
+				951FF2801B72615D00945BD8 /* AppDelegate.m */,
+				951FF2A31B72619D00945BD8 /* BMHomeTableViewController.h */,
+				951FF2A41B72619D00945BD8 /* BMHomeTableViewController.m */,
+				951FF2AC1B7261B900945BD8 /* ManualSpanViewController.h */,
+				951FF2AD1B7261B900945BD8 /* ManualSpanViewController.m */,
+				951FF2A61B7261A700945BD8 /* AutoSpanViewController.h */,
+				951FF2A71B7261A700945BD8 /* AutoSpanViewController.m */,
+				951FF2A91B7261B000945BD8 /* FingeDemoViewController.h */,
+				951FF2AA1B7261B000945BD8 /* FingeDemoViewController.m */,
+				951FF2821B72615D00945BD8 /* ViewController.h */,
+				951FF2831B72615D00945BD8 /* ViewController.m */,
+				951FF2881B72615D00945BD8 /* Images.xcassets */,
+				951FF2A11B72618100945BD8 /* Main.storyboard */,
+				951FF28A1B72615D00945BD8 /* LaunchScreen.xib */,
+				951FF27B1B72615D00945BD8 /* Supporting Files */,
+			);
+			path = BMWaveMakerDemo;
+			sourceTree = "<group>";
+		};
+		951FF27B1B72615D00945BD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				951FF27C1B72615D00945BD8 /* Info.plist */,
+				951FF27D1B72615D00945BD8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		951FF2941B72615D00945BD8 /* BMWaveMakerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				951FF2971B72615D00945BD8 /* BMWaveMakerDemoTests.m */,
+				951FF2951B72615D00945BD8 /* Supporting Files */,
+			);
+			path = BMWaveMakerDemoTests;
+			sourceTree = "<group>";
+		};
+		951FF2951B72615D00945BD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				951FF2961B72615D00945BD8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		951FF2AF1B7261C000945BD8 /* BMWaveMaker */ = {
+			isa = PBXGroup;
+			children = (
+				951FF2B01B7261F300945BD8 /* BMWaveLayer.h */,
+				951FF2B11B7261F300945BD8 /* BMWaveLayer.m */,
+				951FF2B21B7261F300945BD8 /* BMWaveMaker.h */,
+				951FF2B31B7261F300945BD8 /* BMWaveMaker.m */,
+			);
+			name = BMWaveMaker;
+			path = ../BMWaveMaker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		951FF2771B72615D00945BD8 /* BMWaveMakerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 951FF29B1B72615D00945BD8 /* Build configuration list for PBXNativeTarget "BMWaveMakerDemo" */;
+			buildPhases = (
+				951FF2741B72615D00945BD8 /* Sources */,
+				951FF2751B72615D00945BD8 /* Frameworks */,
+				951FF2761B72615D00945BD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BMWaveMakerDemo;
+			productName = BMWaveMakerDemo;
+			productReference = 951FF2781B72615D00945BD8 /* BMWaveMakerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		951FF2901B72615D00945BD8 /* BMWaveMakerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 951FF29E1B72615D00945BD8 /* Build configuration list for PBXNativeTarget "BMWaveMakerDemoTests" */;
+			buildPhases = (
+				951FF28D1B72615D00945BD8 /* Sources */,
+				951FF28E1B72615D00945BD8 /* Frameworks */,
+				951FF28F1B72615D00945BD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				951FF2931B72615D00945BD8 /* PBXTargetDependency */,
+			);
+			name = BMWaveMakerDemoTests;
+			productName = BMWaveMakerDemoTests;
+			productReference = 951FF2911B72615D00945BD8 /* BMWaveMakerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		951FF2701B72615D00945BD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Dennis;
+				TargetAttributes = {
+					951FF2771B72615D00945BD8 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					951FF2901B72615D00945BD8 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 951FF2771B72615D00945BD8;
+					};
+				};
+			};
+			buildConfigurationList = 951FF2731B72615D00945BD8 /* Build configuration list for PBXProject "BMWaveMakerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 951FF26F1B72615D00945BD8;
+			productRefGroup = 951FF2791B72615D00945BD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				951FF2771B72615D00945BD8 /* BMWaveMakerDemo */,
+				951FF2901B72615D00945BD8 /* BMWaveMakerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		951FF2761B72615D00945BD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				951FF2A21B72618100945BD8 /* Main.storyboard in Resources */,
+				951FF28C1B72615D00945BD8 /* LaunchScreen.xib in Resources */,
+				951FF2891B72615D00945BD8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951FF28F1B72615D00945BD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		951FF2741B72615D00945BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				951FF2AE1B7261B900945BD8 /* ManualSpanViewController.m in Sources */,
+				951FF2841B72615D00945BD8 /* ViewController.m in Sources */,
+				951FF2B51B7261F300945BD8 /* BMWaveMaker.m in Sources */,
+				951FF2A51B72619D00945BD8 /* BMHomeTableViewController.m in Sources */,
+				951FF2811B72615D00945BD8 /* AppDelegate.m in Sources */,
+				951FF27E1B72615D00945BD8 /* main.m in Sources */,
+				951FF2A81B7261A700945BD8 /* AutoSpanViewController.m in Sources */,
+				951FF2AB1B7261B000945BD8 /* FingeDemoViewController.m in Sources */,
+				951FF2B41B7261F300945BD8 /* BMWaveLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951FF28D1B72615D00945BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				951FF2981B72615D00945BD8 /* BMWaveMakerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		951FF2931B72615D00945BD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 951FF2771B72615D00945BD8 /* BMWaveMakerDemo */;
+			targetProxy = 951FF2921B72615D00945BD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		951FF28A1B72615D00945BD8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				951FF28B1B72615D00945BD8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		951FF2991B72615D00945BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		951FF29A1B72615D00945BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		951FF29C1B72615D00945BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BMWaveMakerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		951FF29D1B72615D00945BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BMWaveMakerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		951FF29F1B72615D00945BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BMWaveMakerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BMWaveMakerDemo.app/BMWaveMakerDemo";
+			};
+			name = Debug;
+		};
+		951FF2A01B72615D00945BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BMWaveMakerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BMWaveMakerDemo.app/BMWaveMakerDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		951FF2731B72615D00945BD8 /* Build configuration list for PBXProject "BMWaveMakerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				951FF2991B72615D00945BD8 /* Debug */,
+				951FF29A1B72615D00945BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		951FF29B1B72615D00945BD8 /* Build configuration list for PBXNativeTarget "BMWaveMakerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				951FF29C1B72615D00945BD8 /* Debug */,
+				951FF29D1B72615D00945BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		951FF29E1B72615D00945BD8 /* Build configuration list for PBXNativeTarget "BMWaveMakerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				951FF29F1B72615D00945BD8 /* Debug */,
+				951FF2A01B72615D00945BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 951FF2701B72615D00945BD8 /* Project object */;
+}
