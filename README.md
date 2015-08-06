@@ -1,10 +1,10 @@
-![image](https://github.com/DennisXiaoDing/BMWaveMaker/blob/master/ScreenShot/Icon.png)
+<center> ![image](https://github.com/DennisXiaoDing/BMWaveMaker/blob/master/ScreenShot/Icon.png) </center>
 # BMWaveMaker
 - Make the Wave
 - Version: 1.1 
 
 # DEMO
-   ![image](https://github.com/DennisXiaoDing/BMWaveMaker/blob/master/ScreenShot/ScreenShot.gif)
+  <center> ![image](https://github.com/DennisXiaoDing/BMWaveMaker/blob/master/ScreenShot/ScreenShot.gif) </center>
 
 # How To Use
 1. **Alloc the instance**
@@ -29,7 +29,7 @@
 		/**
  		 *  stop wave animation
 		 *
-		 *  @param immediately - if the value is YES, the waves will be removed 			immediately, otherwise, they'll be removed automatically
+		 *  @param immediately - if the value is YES, the waves will be removed immediately, otherwise, they'll be removed automatically
 		 */
 		- (void)stopWaveImmediately:(BOOL)immediately;
 
