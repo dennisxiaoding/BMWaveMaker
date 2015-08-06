@@ -21,7 +21,7 @@
 
 3. **Use the Methods**
   
-   #### Span Wave 
+   ##### Span Wave 
 
           - (void)spanWave; //span a single wave
         
@@ -33,7 +33,7 @@
 		  - (void)spanWaveContinuallyWithTimeInterval:(NSTimeInterval)timeInterval;
 	
 		
-   ### Stop Wave
+   ##### Stop Wave
 		
 		  /**
  		   *  stop wave animation
