@@ -11,35 +11,44 @@
  
 		_maker = [[BMWaveMaker alloc] init];
 
-2. **Use the Methods**
-   
-   <1> Span Wave 
 
-        - (void)spanWave; //span a single wave
+2. **Assign the detination view**
+      
+    This step is necessary, other wise, the maker will not have the animation and also throw out the warning message;
+  
+  		  _maker.animationView = self.view;
+
+
+3. **Use the Methods**
+  
+   - Span Wave 
+
+         - (void)spanWave; //span a single wave
         
-		/**
- 		 *  span numerous waves
- 		 *
-		 *  @param timeInteral waves cycle
- 		 */
-		- (void)spanWaveContinuallyWithTimeInterval:(NSTimeInterval)timeInterval;
+		 /**
+ 		  *  span numerous waves
+ 		  *
+		  *  @param timeInteral waves cycle
+ 		  */
+		 - (void)spanWaveContinuallyWithTimeInterval:(NSTimeInterval)timeInterval;
+	
 		
-	<2> Stop Wave
+   - Stop Wave
 		
-		/**
- 		 *  stop wave animation
-		 *
-		 *  @param immediately - if the value is YES, the waves will be removed immediately, otherwise, they'll be removed automatically
-		 */
-		- (void)stopWaveImmediately:(BOOL)immediately;
+		 /**
+ 		  *  stop wave animation
+		  *
+		  *  @param immediately - if the value is YES, the waves will be removed immediately, otherwise, they'll be removed automatically
+		  */
+		 - (void)stopWaveImmediately:(BOOL)immediately;
 
-		/**
-		 *  stop wave animation;  
-		 *  same as  [waveMaker stopWaveImmediately:NO];
-		 */
-		- (void)stopWave;
+		 /**
+		  *  stop wave animation;  
+		  *  same as  [waveMaker stopWaveImmediately:NO];
+		  */
+		 - (void)stopWave;
 		
-3. **Parameters Explaintions**
+4. **Parameters Explaintions**
         
         /**
 		 *  the view which will add the animations;
