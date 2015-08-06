@@ -149,10 +149,10 @@
 		951FF2AF1B7261C000945BD8 /* BMWaveMaker */ = {
 			isa = PBXGroup;
 			children = (
-				951FF2B01B7261F300945BD8 /* BMWaveLayer.h */,
-				951FF2B11B7261F300945BD8 /* BMWaveLayer.m */,
 				951FF2B21B7261F300945BD8 /* BMWaveMaker.h */,
 				951FF2B31B7261F300945BD8 /* BMWaveMaker.m */,
+				951FF2B01B7261F300945BD8 /* BMWaveLayer.h */,
+				951FF2B11B7261F300945BD8 /* BMWaveLayer.m */,
 			);
 			name = BMWaveMaker;
 			path = ../../BMWaveMaker;

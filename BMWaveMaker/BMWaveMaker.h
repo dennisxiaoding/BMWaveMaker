@@ -10,6 +10,9 @@
 
 @interface BMWaveMaker : NSObject
 
+/**
+ *  the view which will add the animations;
+ */
 @property (nonatomic, weak) UIView *animationView;
 
 /**

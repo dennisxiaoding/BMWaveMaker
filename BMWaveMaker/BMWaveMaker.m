@@ -33,7 +33,6 @@ static NSString *const kBMViewError = @"the animationView is nil";
 }
 
 @property (nonatomic, assign) NSTimeInterval spanTimeInterval;
-@property (nonatomic, readonly) CGFloat finalWaveRadius;
 
 @end
 
@@ -95,7 +94,7 @@ static NSString *const kBMViewError = @"the animationView is nil";
                                                               endAngle:M_PI*2
                                                              clockwise:YES];
     UIBezierPath* toSmoothedPath = [UIBezierPath bezierPathWithArcCenter:self.waveCenter
-                                                                  radius:self.finalWaveRadius
+                                                                  radius:[self finalWaveRadius]
                                                               startAngle:0
                                                                 endAngle:M_PI*2
                                                                clockwise:YES];
