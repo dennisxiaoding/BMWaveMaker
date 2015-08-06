@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		951FF27E1B72615D00945BD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 951FF27D1B72615D00945BD8 /* main.m */; };
 		951FF2811B72615D00945BD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 951FF2801B72615D00945BD8 /* AppDelegate.m */; };
-		951FF2841B72615D00945BD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 951FF2831B72615D00945BD8 /* ViewController.m */; };
 		951FF2891B72615D00945BD8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 951FF2881B72615D00945BD8 /* Images.xcassets */; };
 		951FF28C1B72615D00945BD8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951FF28A1B72615D00945BD8 /* LaunchScreen.xib */; };
 		951FF2981B72615D00945BD8 /* BMWaveMakerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 951FF2971B72615D00945BD8 /* BMWaveMakerDemoTests.m */; };
@@ -38,8 +37,6 @@
 		951FF27D1B72615D00945BD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		951FF27F1B72615D00945BD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		951FF2801B72615D00945BD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		951FF2821B72615D00945BD8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		951FF2831B72615D00945BD8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		951FF2881B72615D00945BD8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		951FF28B1B72615D00945BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		951FF2911B72615D00945BD8 /* BMWaveMakerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMWaveMakerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,8 +107,6 @@
 				951FF2A71B7261A700945BD8 /* AutoSpanViewController.m */,
 				951FF2A91B7261B000945BD8 /* FingeDemoViewController.h */,
 				951FF2AA1B7261B000945BD8 /* FingeDemoViewController.m */,
-				951FF2821B72615D00945BD8 /* ViewController.h */,
-				951FF2831B72615D00945BD8 /* ViewController.m */,
 				951FF2881B72615D00945BD8 /* Images.xcassets */,
 				951FF2A11B72618100945BD8 /* Main.storyboard */,
 				951FF28A1B72615D00945BD8 /* LaunchScreen.xib */,
@@ -259,7 +254,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				951FF2AE1B7261B900945BD8 /* ManualSpanViewController.m in Sources */,
-				951FF2841B72615D00945BD8 /* ViewController.m in Sources */,
 				951FF2B51B7261F300945BD8 /* BMWaveMaker.m in Sources */,
 				951FF2A51B72619D00945BD8 /* BMHomeTableViewController.m in Sources */,
 				951FF2811B72615D00945BD8 /* AppDelegate.m in Sources */,
