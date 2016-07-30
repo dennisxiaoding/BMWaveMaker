@@ -1,40 +1,40 @@
 <center> ![image](https://github.com/DennisXiaoDing/BMWaveMaker/blob/master/ScreenShot/Icon.png) </center>
 # BMWaveMaker
 - Make the Wave
-- Version: 1.1 
+- Version: 1.1
 
 # DEMO
   <center> ![image](https://github.com/DennisXiaoDing/BMWaveMaker/blob/master/ScreenShot/ScreenShot.gif) </center>
 
 # How To Use
 1. **Alloc the instance**
- 
+
 		_maker = [[BMWaveMaker alloc] init];
 
 
 2. **Assign the detination view**
-      
+
     This step is necessary, other wise, the maker will not have the animation and also throw out the warning message;
-  
+
   		  _maker.animationView = self.view;
 
 
 3. **Use the Methods**
-  
-   ##### Span Wave 
+
+   ##### Span Wave
 
           - (void)spanWave; //span a single wave
-        
+
 		  /**
  		   *  span numerous waves
  		   *
 		   *  @param timeInteral waves cycle
  		   */
 		  - (void)spanWaveContinuallyWithTimeInterval:(NSTimeInterval)timeInterval;
-	
-		
+
+
    ##### Stop Wave
-		
+
 		  /**
  		   *  stop wave animation
 		   *
@@ -47,9 +47,9 @@
 		   *  same as  [waveMaker stopWaveImmediately:NO];
 		   */
 		  - (void)stopWave;
-		
+
 4. **Parameters Explaintions**
-        
+
          /**
 		  *  the view which will add the animations;
 		  */
@@ -104,7 +104,7 @@
 
 # About
  *If you have some questions, please do not hesitated to contact me!*
- 
+
  *[SinaWeibo](http://weibo.com/GreatDingXiao)*
- 
- *Email: dennis@dennisme.com* 
+
+ *Email: dennis@awesomedennis.com* 
